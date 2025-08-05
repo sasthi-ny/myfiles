@@ -126,9 +126,8 @@ guesscoord
 writepdb protein_heme_mod2.pdb
 writepsf protein_heme_mod2.psf
 mol delete all
+readpsf mem-wat-ion-ca.psf pdb mem-wat-ion-ca.pdb
+readpsf protein_heme_mod2.psf pdb protein_heme_mod2.pdb
+writepsf mem-prot_SO_reduced.psf
+writepdb mem-prot_SO_reduced.pdb
 quit
-#readpsf mem-wat-ion-ca.psf pdb mem-wat-ion-ca.pdb
-#readpsf protein_heme_mod2.psf pdb protein_heme_mod2.pdb
-#writepsf mem-prot_SO_reduced.psf
-#writepdb mem-prot_SO_reduced.pdb
-#quit
