@@ -546,12 +546,6 @@ $all writepsf protABC_beta0_1.psf
 $all delete
 mol delete all
 
-#mol new protABC_beta0_1.pdb
-#coordpdb protABC_beta0_1.pdb
-#guesscoord
-#writepsf protABC_beta0_1.psf
-#mol delete all
-
 file delete CA_ions.pdb
 file delete protA_1.pdb protA_2.pdb protA_3.pdb CA_ionsC.pdb protAtemp.pdb watA.pdb hemA.pdb
 file delete prot2B_mod_resid.pdb mtra_af_74_77.pdb mtr_af_113_115.pdb protB2temp.pdb
